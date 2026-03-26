@@ -27,6 +27,7 @@ return {
     -- With lazy the plugin will be automatically loaded when it is required somewhere
     { "folke/which-key.nvim", lazy = true },
     {"neovim/nvim-lspconfig"},
+    {"pocco81/auto-save.nvim"},
     -- {"neovim/harpoon"},
     {
         "nvim-neorg/neorg",
