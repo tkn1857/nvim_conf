@@ -10,3 +10,8 @@ vim.opt.softtabstop = 4
 vim.opt.expandtab = true
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.signcolumn = "yes:2"
+
+vim.diagnostic.config({
+  update_in_insert = false,
+})
