@@ -28,6 +28,7 @@ return {
     { "folke/which-key.nvim", lazy = true },
     {"neovim/nvim-lspconfig"},
     {"pocco81/auto-save.nvim"},
+    {"mg979/vim-visual-multi"},
     -- {"neovim/harpoon"},
     {
         "nvim-neorg/neorg",
