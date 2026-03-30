@@ -19,3 +19,4 @@ vim.keymap.set("i", "<C-Space>", function()
 end, { desc = "LSP completion" })
 
 vim.lsp.enable("clangd")
+vim.lsp.enable("jedi_language_server")

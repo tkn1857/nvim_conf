@@ -13,3 +13,10 @@ else
     vim.notify("tree-sitter CLI not found; skipping parser install", vim.log.levels.WARN)
   end)
 end
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "python",
+  callback = function(args)
+    pcall(vim.treesitter.start, args.buf)
+  end,
+})
